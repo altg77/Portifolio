@@ -195,9 +195,7 @@ span{
 }
 
 .tipo-text span:before{
-    content: "Desenvolvedor de Software";
     color: #b74b4b;
-    animation: words 20s infinite;
 }
 
 .tipo-text span:after{
@@ -215,23 +213,6 @@ span{
         to{
             border-left: 3px solid #161616;
         }
-}
-
-@keyframes words{
-    0%, 20%{
-        content: "Web Developer";
-    }
-    21%, 50%{
-        content: "Designer Gráfico";
-    }
-
-    41%, 70%{
-        content: "Social Midia";
-    }
-
-    61%, 100%{
-        content: "Ilustrador";
-    }
 }
 
 @media(max-width: 1000px){
