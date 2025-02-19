@@ -38,7 +38,7 @@ header{
 
 .logo{
     font-size: 3rem;
-    color: #b74b4b;
+    color: #c92626;
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s ease;
@@ -59,8 +59,8 @@ nav a{
 
 nav a:hover,
 nav a.active {
-    color: #b74b4b;
-    border-bottom: 3px solid #b74b4b;
+    color: #c92626;
+    border-bottom: 3px solid #c92626;
 }
 
 @media(max-width: 995px){
@@ -69,8 +69,8 @@ nav a.active {
         top: 100%;
         right: 0;
         width: 40%;
-        border-left: 3px solid #b74b4b;
-        border-bottom: 3px solid #b74b4b;
+        border-left: 3px solid #c92626;
+        border-bottom: 3px solid #c92626;
         border-bottom-left-radius: 2rem;
         padding: 1rem solid;
         background-color: #161616;
@@ -90,7 +90,7 @@ nav a.active {
     nav a:hover,
     nav a.active{
         border-radius: 0.5rem;
-        border-bottom: 0.5s solid #b74b4b;
+        border-bottom: 0.5s solid #c92626;
     }    
 }
 
@@ -114,7 +114,7 @@ section{
 }
 
 span{
-    color: #b74b4b;
+    color: #c92626;
 }
 
 .home-content h3{
@@ -131,7 +131,7 @@ span{
     position: relative;
     width: 32vw;
     border-radius: 50%;
-    box-shadow: 0 0 25px solid #b74b4b;
+    box-shadow: 0 0 25px solid #c92626;
     cursor: pointer;
     transition: 0.2s linear;
 }
@@ -148,7 +148,7 @@ span{
     width: 4rem;
     height: 4rem;
     background-color: transparent;
-    border: 0.2rem solid #b74b4b;
+    border: 0.2rem solid #c92626;
     font-size: 2rem;
     border-radius: 50%;
     margin: 3rem 1.5rem 3rem 0;
@@ -159,8 +159,8 @@ span{
 .social-icons a:hover{
     color: black;
     transform: scale(1.3) translateY(-5px);
-    background-color: #b74b4b;
-    box-shadow: 0 0 25px #b74b4b;
+    background-color: #c92626;
+    box-shadow: 0 0 25px #c92626;
 }
 
 .bttn{
@@ -169,19 +169,19 @@ span{
     background-color: black;
     border-radius: 4rem;
     font-size: 1.6rem;
-    color: #b74b4b;
+    color: #c92626;
     letter-spacing: 0.3rem;
     font-weight: 600;
-    border: 2px solid #b74b4b;
+    border: 2px solid #c92626;
     transition: 0.3s ease;
     cursor: pointer;
 }
 
 .bttn:hover{
     transform: scale3d(1.03);
-    background-color: #b74b4b;
+    background-color: #c92626;
     color: black;
-    box-shadow: 0 0 25px #b74b4b;
+    box-shadow: 0 0 25px #c92626;
 }
 
 .tipo-text{
@@ -195,7 +195,7 @@ span{
 }
 
 .tipo-text span:before{
-    color: #b74b4b;
+    color: #c92626;
 }
 
 .tipo-text span:after{
