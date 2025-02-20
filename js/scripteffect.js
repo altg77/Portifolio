@@ -1,5 +1,5 @@
 const textElement = document.querySelector(".tipo-text span");
-const words = ["Web Developer", "Designer Gráfico", "Social Media", "Ilustrador"];
+const words = [" Web Developer ", " Designer Gráfico ", " Social Media ", " Ilustrador "];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
@@ -13,7 +13,7 @@ function typeEffect() {
         textElement.textContent = currentWord.substring(0, charIndex++);
     }
 
-    let speed = isDeleting ? 50 : 100; // Velocidade da digitação e remoção
+    let speed = isDeleting ? 2 : 40; // Velocidade da digitação e remoção
 
     if (!isDeleting && charIndex === currentWord.length) {
         speed = 1500; // Pausa antes de apagar
