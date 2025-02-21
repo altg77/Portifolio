@@ -1,3 +1,5 @@
+/* HOME */
+
 section{
     min-height: 100vh;
     padding: 5rem 9% 5rem;
@@ -156,6 +158,153 @@ span{
 
     .home-img img{
         margin-top: 4rem;
+    }
+}
+
+.section content{
+    width: 80%;
+    margin: 0px auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* SOBRE MIM */
+
+.sobre-mim {
+    min-height: 100vh;
+    padding: 5rem 9%;
+    color: white;
+    background-color: black;
+}
+
+.sobre-mim .sobre-detalhes {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+/* Titulos */
+section .titulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+section .titulo span{
+    color:white;
+    font-size: 50px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+section .titulo span:before,
+section .titulo span:after{
+    content:"";
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background:#c92626;
+    left: 0;
+    bottom: 0;
+}
+
+.sobre-detalhes .left {
+    width: 50%;
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+
+.sobre-detalhes .right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-detalhes .right img {
+    width: 90%;
+    max-width: 400px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+.button button {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.button button {
+    padding: 1rem 2.8rem;
+    background-color: black;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: #c92626;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    border: 2px solid #c92626;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.button button:hover {
+    transform: scale(1.03);
+    background-color: #c92626;
+    color: black;
+    box-shadow: 0 0 25px #c92626;
+}
+
+/* Inspiração*/
+.content-inspiracao {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.topic {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #c92626;
+    margin-bottom: 1rem;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.image-gallery img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #c92626;
+}
+
+
+@media (max-width: 995px) {
+    .sobre-detalhes {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sobre-detalhes .left,
+    .sobre-detalhes .right {
+        width: 100%;
+    }
+
+    .sobre-detalhes .right img {
+        width: 60vw;
+        margin-top: 2rem;
+    }
+
+    .image-gallery img {
+        width: 120px;
     }
 }
 

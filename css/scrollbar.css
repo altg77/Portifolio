@@ -1,0 +1,24 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: black; 
+    border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff; 
+    border-radius: 10px; 
+    transition: 0.3s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff; 
+}
+
+/* Personalização para Firefox */
+html {
+    scrollbar-color: #ffffff black; 
+    scrollbar-width: thin; 
+}
