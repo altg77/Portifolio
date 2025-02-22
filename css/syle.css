@@ -5,7 +5,7 @@ section{
     padding: 10rem 9% 5rem;
 }
 
-#sobre-mim , #meus-trabalhos , #servicos , #skills , #formacao , #contato{
+#sobre-mim , #meus-trabalhos , #servicos , #skills , #qualificacao , #contato{
     min-height: 100vh;
     padding: 12rem 10%;
     color: white;
@@ -147,55 +147,44 @@ span{
         }
 }
 
-@media(max-width: 1000px){
-    .home{
-        gap: 4rem;
-    }
-}
-@media(max-width: 995px){
-    .home{
-        flex-direction: column;
-        margin: 5rem 4rem;
-
-    }
-
-    .home.home-content h3{
-        font-size: 2.5rem;
-    }
-
-    .home-content h1{
-        font-size: 5rem;
-    }
-
-    .home-img img{
-        margin-top: 4rem;
-    }
-}
-
 .section content{
     width: 80%;
     margin: 0px auto;
-    font-family: 'Poppins', sans-serif;
 }
 
 /* SOBRE MIM */
 
+#sobre-mim{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
 #sobre-mim .sobre-detalhes {
     display:flex;
     justify-content: space-between;
-    align-items: center;
 } 
+
+#sobre-mim .content{
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
 
 /* Titulos */
 section .titulo{
-    display: flex;
-    justify-content: center;
     margin-bottom: 40px;
+}
+
+#sobre-mim .titulo span{
+    color:rgb(255, 0, 0);
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 8px;
 }
 
 section .titulo span{
     color:white;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 600;
     position: relative;
     padding-bottom: 8px;
@@ -214,7 +203,7 @@ section .titulo span:after{
 
 .sobre-detalhes .left {
     width: 60%;
-    font-size: 1.6rem;
+    font-size: 1.8cqb;
     line-height: 1.8;
 }
 
@@ -224,7 +213,7 @@ section .titulo span:after{
 }
 
 .sobre-detalhes .right img {
-    width: 90%;
+    width: 80%;
     max-width: 400px;
     border-radius: 50%;
     transition: 0.3s ease-in-out;
@@ -238,13 +227,13 @@ section .titulo span:after{
 
 .button button {
     padding: 1rem 2.8rem;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     border-radius: 4rem;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #c92626;
     letter-spacing: 0.3rem;
     font-weight: 600;
-    border: 2px solid #c92626;
+    border: 3px solid #c92626;
     transition: 0.3s ease;
     cursor: pointer;
 }
@@ -257,21 +246,29 @@ section .titulo span:after{
 }
 
 /* Inspiração*/
-.content2 {
+#sobre-mim .content2 {
+    background-color: white;
     margin-top: 4rem;
     text-align: end;
-    font-size: medium;
+    font-size: 1.8cqb;
+
+}
+
+#sobre-mim .content2 p{
+    color: black;
+    font-size: 1.8cqb;
+    text-align: start;
 }
 
 .topic {
-    font-size: 3rem;
+    font-size: 6rem;
     font-weight: 700;
     color: #c92626;
     margin-bottom: 1rem;
 }
 
 .image-gallery {
-    justify-content: end;
+    justify-content: start;
     display: flex;
     gap: 10px;
     margin-top: 20px;
@@ -279,7 +276,7 @@ section .titulo span:after{
 }
 
 .image-gallery img {
-    width: 300px;
+    width: 240px;
     height: auto;
     border-radius: 10px;
     transition: 0.3s ease-in-out;
@@ -291,13 +288,13 @@ section .titulo span:after{
 
 .button2 button {
     padding: 1rem 2.8rem;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     border-radius: 4rem;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #c92626;
     letter-spacing: 0.3rem;
     font-weight: 600;
-    border: 2px solid #c92626;
+    border: 3px solid #c92626;
     transition: 0.3s ease;
     cursor: pointer;
 }
@@ -330,15 +327,18 @@ section .titulo span:after{
     }
 }
 
-/* SKILLS */
+/* HARDSKILLS */
+
+#skills{
+    width: 80%;
+    margin: 0 auto;
+}
 
 #skills .content {
     margin-top: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    max-width: 1200px;
 }
 
 #skills .skills-detalhes {
@@ -377,14 +377,13 @@ section .titulo span:after{
     font-weight: bold;
 }
 
-/* Lado direito (habilidades) */
 #skills .boxes {
     flex: 1;
     max-width: 50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 20px;
+    gap: 30px;
 }
 
 #skills .box {
@@ -407,6 +406,86 @@ section .titulo span:after{
     color: red;
     margin-top: 10px;
 }
+
+/* Minha formação */
+#qualificacao {
+    min-height: 100vh;
+    padding: 12rem 10%;
+    color: white;
+    background-color: #c92626;
+}
+
+#qualificacao .content {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+#qualificacao .titulo {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+#qualificacao .titulo span {
+    font-size: 50px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 8px;
+    color: white;
+}
+
+#qualificacao .titulo span:before,
+#qualificacao .titulo span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background: #ffffff;
+    left: 0;
+    bottom: 0;
+}
+
+#qualificacao .boxes {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#qualificacao .box {
+    margin-top: 2%;
+    padding: 20px;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+#qualificacao .box .topico {
+    font-size: 22px;
+    font-weight: bold;
+    color: #c92626;
+    margin-bottom: 10px;
+}
+
+#qualificacao .box p {
+    font-size: 16px;
+    line-height: 1.6;
+    opacity: 0.9;
+    color: white;
+}
+
+/* Responsividade */
+@media (max-width: 995px) {
+    #qualificacao .boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #qualificacao .box { /* Corrigido erro na estrutura */
+        width: 80%;
+    }
+}
+
+
+
 
 
 

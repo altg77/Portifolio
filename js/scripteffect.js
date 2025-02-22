@@ -23,7 +23,7 @@ function typeEffect() {
     else if (isDeleting && charIndex === 0) {
         isDeleting = false;
         wordIndex = (wordIndex + 1) % words.length; // Alterna para a próxima palavra
-        speed = 500; // Pequena pausa antes de começar a nova palavra
+        speed = 100; // Pequena pausa antes de começar a nova palavra
     }
 
     setTimeout(typeEffect, speed);
