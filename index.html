@@ -18,12 +18,12 @@
     <header>
         <a href="#" class="logo">Portifólio</a>
         <nav>
-            <a href="#" class="active">Sobre mim</a>
-            <a href="#">Meus Trabalhos</a>
-            <a href="#">Serviços</a>
-            <a href="#">Skills</a>
-            <a href="#">Formação</a>
-            <a href="#">Contato</a>
+            <a href="#sobre-mim">Sobre mim</a>
+            <a href="#meus-trabalhos">Meus Trabalhos</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#skills">Skills</a>
+            <a href="#formacao">Formação</a>
+            <a href="#contato">Contato</a>
         </nav>
     </header>
 
@@ -56,7 +56,7 @@
 
     <!-- Sobre mim -->
 
-    <section class="sobre-mim">
+    <section id="sobre-mim">
         <div class="content">
             <div class="titulo"><span>Sobre mim</span></div>
             <div class="sobre-detalhes">
@@ -67,7 +67,9 @@
                         Seja para identidade visual, ilustrações ou campanhas digitais, estou aqui para ajudar sua marca a se destacar.</p>
                         
                         <div class="button">
-                            <button>Baixar Currículo</button>
+                            <a href="/img/import/Currículo.pdf" download>
+                                <button>Baixar Currículo</button>
+                            </a>
                         </div>
                 </div>
 
@@ -78,11 +80,16 @@
 
         <div class="content2">
             <div class="topic">Inspiração</div>
+
+            <div class="button2">
+                <button onclick="window.open('https://www.instagram.com/guiauves.design', '_blank')">Confira seu trabalho: @guiauves.design</button>
+            </div>
+
             <p>Uma das minhas maiores inspirações no design é Guilherme Alves, um profissional incrível que acompanha há algum tempo. Com mais de 13 mil seguidores , ele me mostrou como é possível unir criatividade, técnica e autenticidade para criar projetos que realmente impactam as pessoas. Seu trabalho me motiva a continuar evoluindo e a buscar sempre o melhor em cada criação.</p>
 
             <div class="image-gallery">
                 <img src="/img/inspiração/falta2dia.PNG" alt="Imagem 1">
-                <img src="/img/inspiração/inf1.PNG" alt="Imagem 2">
+                <img src="/img/inspiração/geere.png" alt="Imagem 2">
                 <img src="/img/inspiração/opemn.PNG" alt="Imagem 3">
                 <img src="/img/inspiração/xico.PNG" alt="Imagem 4">
             </div>
@@ -92,7 +99,7 @@
 
     <!-- Meus Trabalhos -->
 
-    <section class="meus-trabalhos">
+    <section id="meus-trabalhos">
         <div class="content">
             <div class="titulo"><span>Meus Trabalhos</span></div>
             <div class="image-gallery">
@@ -108,9 +115,9 @@
 
     <!-- Skills -->
 
-    <section class="skill" id="skills">
+    <section id="skills">
         <div class="content">
-            <div class="titulo"><span>My Skills</span></div>
+            <div class="titulo"><span>Skills</span></div>
             <div class="skills-detalhes">
                 <div class="text">
                     <div class="topico">
@@ -147,7 +154,7 @@
 
      <!-- Serviços -->
 
-     <section class="servicos">
+     <section id="servicos">
         <div class="content">
             <div class="titulo"><span>Meus Serviços</span></div>
             <div class="boxes">
@@ -208,7 +215,7 @@
      </section>
 
     <!-- Formação -->
-    <section class="formacao">
+    <section id="formacao">
         <div class="content">
             <div class="titulo"><span>Minha Formação</span></div>
             <div class="boxes">
@@ -237,7 +244,7 @@
 
 
      <!-- Contato -->
-     <section class="contato">
+     <section id="contato">
         <div class="content">
             <div class="titulo"><span>Entre em Contato</span></div>
             <p>Entre em contato para discutir projetos, parcerias ou dúvidas. Estou disponível para colaborar em novas ideias!</p>

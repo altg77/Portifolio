@@ -2,7 +2,14 @@
 
 section{
     min-height: 100vh;
-    padding: 5rem 9% 5rem;
+    padding: 15rem 9% 5rem;
+}
+
+#sobre-mim , #meus-trabalhos , #servicos , #skills , #formacao , #contato{
+    min-height: 100vh;
+    padding: 13rem 10%;
+    color: white;
+    background-color: black;
 }
 
 .home{
@@ -15,9 +22,13 @@ section{
 }
 
 .home .home-content h1{
-    font-size: 6rem;
+    font-size: 3rem;
     font-weight: 700;
     line-height: 1.3;
+}
+
+.home .home-content p{
+    font-size: medium;
 }
 
 span{
@@ -169,14 +180,7 @@ span{
 
 /* SOBRE MIM */
 
-.sobre-mim {
-    min-height: 100vh;
-    padding: 5rem 9%;
-    color: white;
-    background-color: black;
-}
-
-.sobre-mim .sobre-detalhes {
+#sobre-mim .sobre-detalhes {
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -209,13 +213,12 @@ section .titulo span:after{
 }
 
 .sobre-detalhes .left {
-    width: 50%;
+    width: 60%;
     font-size: 1.6rem;
     line-height: 1.8;
 }
 
 .sobre-detalhes .right {
-    width: 50%;
     display: flex;
     justify-content: center;
 }
@@ -254,9 +257,10 @@ section .titulo span:after{
 }
 
 /* Inspiração*/
-.content-inspiracao {
+.content2 {
     margin-top: 4rem;
-    text-align: center;
+    text-align: end;
+    font-size: medium;
 }
 
 .topic {
@@ -267,25 +271,43 @@ section .titulo span:after{
 }
 
 .image-gallery {
+    justify-content: end;
     display: flex;
-    justify-content: center;
     gap: 10px;
     margin-top: 20px;
     flex-wrap: wrap;
 }
 
 .image-gallery img {
-    width: 150px;
+    width: 300px;
     height: auto;
     border-radius: 10px;
     transition: 0.3s ease-in-out;
 }
 
-.image-gallery img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 15px #c92626;
+.button2{
+    margin-bottom: 2%;
 }
 
+.button2 button {
+    padding: 1rem 2.8rem;
+    background-color: black;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: #c92626;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    border: 2px solid #c92626;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.button2 button:hover {
+    transform: scale(1.03);
+    background-color: #c92626;
+    color: black;
+    box-shadow: 0 0 25px #c92626;
+}
 
 @media (max-width: 995px) {
     .sobre-detalhes {
@@ -307,4 +329,6 @@ section .titulo span:after{
         width: 120px;
     }
 }
+
+/* MEUS TRABALHOS */
 
